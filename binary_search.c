@@ -33,8 +33,8 @@ int main(void)
     scanf("%d",&x);
 
     int result = binarySearch(arr, 0 , n-1, x);
-    (result == -1) ? printf("\nElement not present in the array\n"):
-                     printf("\nElement present at index %d\n", result);
+    (result == -1) ? printf("\nElement not present in the array\n")
+                   : printf("\nElement present at index %d\n", result);
 
     return 0;
 }
